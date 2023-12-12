@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Portfolio</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<title>Portfolio</title>
 </head>
 <body>
-
-    <header>
-        <h1>Sachintha Waduge</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to my portfolio website!</p>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write something about yourself here.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <script src="script.js"></script>
+    <header>  
+        <div class="container">  
+          <nav class="flex items-centre justify-between">  
+              <div class="left flex justfiy-right">  
+              <div class="logo">  
+                <img src="./images/logo.png" width="50px" alt="logo">  
+              </div>  
+              <div>  
+                <a href="#">Home</a>  
+                <a href="#">About</a>  
+                <a href="#">Services</a>  
+                <a href="#">Blog</a></li>  
+                <a href="#">More</a>  
+              </div>  
+            </div>  
+            <div class="right">  
+              <button class="btn btn-primary">Contact</button>  
+            </div>  
+          </nav>
+        </div>  
+      </header>
 </body>
 </html>
